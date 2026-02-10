@@ -391,10 +391,10 @@ export default function Home() {
               <div className="bg-emerald-50 border border-emerald-100 rounded-lg p-4">
                 <p className="text-xs font-bold text-emerald-700 uppercase tracking-wider mb-2">With Procure4AI</p>
                 <ul className="space-y-1.5 text-sm text-emerald-900/80">
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">&check;</span>Automated multi-format intake &amp; mapping</li>
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">&check;</span>Minutes instead of weeks</li>
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">&check;</span>Zero manual intervention, repeatable</li>
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">&check;</span>100% offline, air-gapped deployment</li>
+                  <li className="flex items-start gap-2"><svg className="w-4 h-4 text-emerald-500 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>Automated multi-format intake &amp; mapping</li>
+                  <li className="flex items-start gap-2"><svg className="w-4 h-4 text-emerald-500 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>Minutes instead of weeks</li>
+                  <li className="flex items-start gap-2"><svg className="w-4 h-4 text-emerald-500 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>Zero manual intervention, repeatable</li>
+                  <li className="flex items-start gap-2"><svg className="w-4 h-4 text-emerald-500 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>100% offline, air-gapped deployment</li>
                 </ul>
               </div>
             </div>
