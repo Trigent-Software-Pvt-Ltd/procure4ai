@@ -34,21 +34,29 @@ export default function RootLayout({
       >
         {/* ── Header (dark) ── */}
         <header className="bg-[#0a0a0f] border-b border-white/10">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center gap-5">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="https://trigent.com/wp-content/uploads/trigent-_yellow-white-ho.svg"
-              alt="Trigent"
-              className="h-7 w-auto"
-            />
-            <div className="h-7 w-px bg-white/20" />
-            <div>
-              <h1 className="text-white text-lg font-semibold leading-tight tracking-tight">
-                Procure4AI
-              </h1>
-              <p className="text-white/40 text-[11px] leading-tight">
-                Procurement Data Intelligence
-              </p>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+            <div className="flex items-center gap-5">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="https://trigent.com/wp-content/uploads/trigent-_yellow-white-ho.svg"
+                alt="Trigent"
+                className="h-7 w-auto"
+              />
+              <div className="h-7 w-px bg-white/20" />
+              <div>
+                <h1 className="text-white text-lg font-semibold leading-tight tracking-tight">
+                  Procure4AI
+                </h1>
+                <p className="text-white/40 text-[11px] leading-tight">
+                  Procurement Data Intelligence
+                </p>
+              </div>
+            </div>
+            <div className="hidden sm:flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-3 py-1.5">
+              <svg className="w-3.5 h-3.5 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+              </svg>
+              <span className="text-[11px] text-white/50 font-medium">Standalone &middot; Air-Gapped &middot; Secure</span>
             </div>
           </div>
         </header>
